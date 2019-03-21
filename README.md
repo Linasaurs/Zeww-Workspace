@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Zeww Comments
+
+-Install react-strop
+-Install axiom
+-Install fontawesome
 
 ## Available Scripts
 

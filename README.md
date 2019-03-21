@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Zeww Comments
 
--Install react-strop
--Install axiom
--Install fontawesome
+-Install react-strop<br>
+-Install axiom<br>
+-Install fontawesome<br>
 
 ## Available Scripts
 

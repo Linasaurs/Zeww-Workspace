@@ -23,15 +23,15 @@ class App extends Component {
     
   //   this.setState({users:users})
   // }
-goToWorkspace(){
-  this.setState({workspace:true})
+  goToWorkspace(){
+    this.setState({workspace:true})
+    
+  }
   
-}
   render() {
     return (
       <div className="App">
-     
-  <Workspace/>
+        <Workspace/>
       </div>
      );
   }

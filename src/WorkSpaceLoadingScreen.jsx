@@ -4,7 +4,7 @@ export default class LoadingScreen extends React.Component {
     render() {
         return (
             <div id="loading-bg">
-                <img class="loading-img" src={require('./imgs/logoplaceholder.svg')} />
+                <img className="loading-img" src={require('./imgs/logoplaceholder.svg')} />
             </div>
         )
     }

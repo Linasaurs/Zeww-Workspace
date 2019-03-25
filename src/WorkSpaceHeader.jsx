@@ -3,17 +3,19 @@ import defaultWorkspaceIcon from "./imgs/logoplaceholder.svg";
 import { Container, Row, Col } from "reactstrap";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInfoCircle, faBars} from '@fortawesome/free-solid-svg-icons'
+import { faInfoCircle, faBars } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faInfoCircle)
 library.add(faBars)
 
 export default class WorkSpaceHeader extends React.Component {
-    state={
+
+    state = {
         workspaceName: this.props.workspaceName,
         channelName: this.props.channelName,
         workspaceImg: './imgs/logoplaceholder.svg'
     }
+
     render() {
         return (
             <Container fluid className="class-sticky">
@@ -25,11 +27,11 @@ export default class WorkSpaceHeader extends React.Component {
                     <Col>
                         <div id="workspace-header-channeltitle">
                             {this.state.channelName}
-          </div>
+                        </div>
                     </Col>
                     <Col id="workspace-header-icons" xs="2">
                         <FontAwesomeIcon icon={faInfoCircle} />
-                        <FontAwesomeIcon icon={faBars} />
+                        <span onClick={() => this.props.onSetSidebarOpen(true)}> <FontAwesomeIcon icon={faBars} /> </span>
                     </Col>
                 </Row>
             </Container>

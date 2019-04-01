@@ -30,7 +30,7 @@ Zeww is a collabrative project developed by a group of junior developers to prac
 
 ## Running the component
 
-`npm --save install`
+`npm --save install` </br>
 `npm start`
 
 

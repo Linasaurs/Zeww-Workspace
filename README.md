@@ -6,7 +6,7 @@ The UI interface for the Workspace component for Zeww.
 
 Zeww is a communication tool for big teams and groups. Zeww enables its users to create a workspace, invite members, and create internal  channel topics within the workspace. In short, Zeww is a Slack wanna-be.
 
-Zeww is a collabrative project developed by a group of junior developers to practice the following technologies; ASP.Net Core, Entity Framework, SQLExpress, ReactJS, and SignalR. The main objective of the project is to build a working product in a pre-defined timeframe following the Scrum methodology to manage the development process and MVC design pattern, with empathis on team communication and code integration.
+Zeww is a collabrative project developed by a group of junior developers to practice the following technologies; ASP.Net Core, Entity Framework, SQLExpress, ReactJS, and SignalR. The main objective of the project is to build a working product in a pre-defined timeframe following the Scrum methodology to manage the development process, MVC design pattern, and TFS for version control. 
 
 ## Zeww Features
 

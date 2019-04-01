@@ -23,10 +23,15 @@ Zeww is a collabrative project developed by a group of junior developers to prac
 - View other workspace member status (Online, offline, busy, etc.)
 - Like, Edit, Delete messages.
 
+## Final proudct
+ 
+ Zeww Front-end (https://github.com/Linasaurs/Zeww-FrontEnd)
+ Zeww server side (https://github.com/Linasaurs/Zeww)
+
 ## Running the component
 
-### `npm --save install`
-### `npm start`
+`npm --save install`
+`npm start`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

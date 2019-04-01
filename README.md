@@ -25,7 +25,7 @@ Zeww is a collabrative project developed by a group of junior developers to prac
 
 ## Final proudct
  
- Zeww Front-end (https://github.com/Linasaurs/Zeww-FrontEnd)
+ Zeww Front-end (https://github.com/Linasaurs/Zeww-FrontEnd)</br>
  Zeww server side (https://github.com/Linasaurs/Zeww)
 
 ## Running the component
